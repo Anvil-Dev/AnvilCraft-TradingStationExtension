@@ -14,6 +14,7 @@ tasks.withType(ProcessResources).configureEach {
         mod_license            : mod_license,
         mod_version            : version,
         mod_description        : mod_description,
+        mod_url                : mod_url,
         mod_author             : mod_author,
     ]
     inputs.properties replaceProperties
